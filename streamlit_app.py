@@ -37,7 +37,7 @@ with st.expander ('Input features'):
   input_df
 
 encode = ['island', 'sex']
-df_penguins = pd.get_dummies(input_penguins, prefix = encoding)
+df_penguins = pd.get_dummies(input_penguins, prefix = encode)
 
 target_mapper = {'Adelie':0,
                  'Gentoo':1,
