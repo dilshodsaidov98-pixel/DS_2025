@@ -27,7 +27,7 @@ with st.sidebar:
 data = {'island': island,
         'bill_length_mm': bill_length_mm,
         'flipper_length_mm': flipper_length_mm,
-        'body_mass_g':bode_mass_g,
+        'body_mass_g':body_mass_g,
         'sex': sex}
 input_df = pd.DataFrame(data, index=[0])
 input_penguins = pd.contact([input_df, X_raw], axis = 0)
